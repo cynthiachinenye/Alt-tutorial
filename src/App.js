@@ -1,4 +1,5 @@
 import { React, useState } from 'react';
+import profile from './Components/profile';
 
 import './App.css';
 
@@ -102,6 +103,8 @@ const ListCars = cars.map((car) =>{
 </div>
 
 return(<section>{ListCars}</section>)
+
+<profile/>
     </section>
 
     
